@@ -1,0 +1,285 @@
+/* banner区域 */
+.bqy {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.bqy .wrapper {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+/* 图片 */
+.bqy .tp {
+    display: flex;
+}
+
+/* 分类 */
+.bqy .fli {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.bqy .fli ul {
+
+}
+
+.bqy .fli li {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 12px;
+    cursor: pointer;
+    line-height: 50px;
+    height: 50px;
+    color: #fff;
+}
+
+.bqy .fli li a {
+    margin-right: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.bqy .fli li .dz {
+    margin-right: 14px;
+    font-size: 16px;
+}
+
+.bqy .fli li .iconfont {
+    font-size: 14px;
+}
+
+.bqy .fli li:hover {
+    background-color: #00be9a;
+}
+
+/* 轮播图 */
+.bqy ol {
+    display: flex;
+    position: absolute;
+    bottom: 17px;
+    right: 16px;
+}
+
+.bqy ol li {
+    margin-right: 8px;
+    width: 22px;
+    height: 22px;
+    /* background-color: pink; */
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.bqy ol i {
+    display: block;
+    margin: 4px;
+    width: 14px;
+    height: 14px;
+    background-color: rgba( 255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.bqy ol li:hover,
+.bqy ol li:first-child {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bqy ol i:hover,
+.bqy ol i:first-child {
+    background-color: #fff;
+}
+
+/* 新鲜好物 */
+/* 标题 */
+.btia {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 42px;
+}
+
+.btia .left h3 {
+    margin-right: 35px;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.btia .left ul {
+    display: flex;
+    margin-top: 16px;
+}
+
+.btia .left ul li {
+    margin-right: 10px;
+    color: #a1a1a1;
+    font-size: 16px;
+}
+
+.btia .right {
+    line-height: 42px;
+    color: #a1a1a1;
+}
+
+.btia .right a {
+    color: #a1a1a1;
+    font-size: 16px;
+}
+
+.btia .right .iconfont {
+    margin-left: 10px;
+}
+
+/* 内容 */
+.nron {
+
+}
+
+.nron ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nron ul li {
+    width: 304px;
+    height: 404px;
+    background-color: #eef9f4;
+}
+
+.nron ul li .tupi {
+    width: 304px;
+    height: 304px;
+}
+
+.nron .wenz {
+    text-align: center;
+}
+
+.nron .wenz h5 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.nron .wenz p {
+    color: #aa2113;
+    font-size: 18px;
+}
+
+.nron .wenz span {
+    font-size: 22px;
+}
+
+/* 人气推荐 */
+.btia {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 42px;
+}
+
+.btia .left h3 {
+    margin-right: 35px;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.btia .left ul {
+    display: flex;
+    margin-top: 16px;
+}
+
+.btia .left ul li {
+    margin-right: 10px;
+    color: #a1a1a1;
+    font-size: 16px;
+}
+
+.btia .right {
+    line-height: 42px;
+    color: #a1a1a1;
+}
+
+.btia .right a {
+    color: #a1a1a1;
+    font-size: 16px;
+}
+
+.btia .right .iconfont {
+    margin-left: 10px;
+}
+
+/* 内容 */
+.nron {
+
+}
+
+.nron ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.renqi .nron ul li {
+    width: 304px;
+    height: 404px;
+    background-color: #fff;
+}
+
+.nron ul li .tupi {
+    width: 304px;
+    height: 304px;
+}
+
+.nron .wenz {
+    text-align: center;
+}
+
+.nron .wenz h5 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.renqi .nron .wenz p {
+    color: #a1a1a1;
+    font-size: 18px;
+}
+
+/* 原神 */
+.ys .nron .wenz p {
+    color: #a1a1a1;
+    font-size: 18px;
+}
+
+/* 热门品牌 */
+.remn {
+    height: 468px;
+    background-color: #f5f5f5;
+}
+
+.remn .wrapper {
+    overflow: hidden;
+    margin-top: 60px;
+    height: 468px;
+    /* background-color: pink; */
+}
+/* 标题 */
+.remn .btia {
+    margin-bottom: 40px;
+}
+
+/* 内容 */
+.remn .root ul {
+    display: flex;
+    justify-content: space-between;
+}
