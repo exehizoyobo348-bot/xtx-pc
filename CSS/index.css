@@ -283,3 +283,149 @@
     display: flex;
     justify-content: space-between;
 }
+
+/* 生鲜内容 */
+.fresh .bau {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.bau .left h3 {
+    margin-right: 35px;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.bau .left ul {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.bau .left li a {
+    display: block;
+    margin-left: 6px;
+    padding: 0 7px;
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+    font-size: 16px;
+}
+
+.bau .left li .at,
+.bau .left li a:hover {
+    background-color: #00be9a;
+    color: #fff;
+}
+
+.bau .right .al {
+    color: #a1a1a1;
+    font-size: 16px;
+}
+
+.bau .right .al .iconfont {
+    margin-left: 10px;
+}
+
+/* 内容 */
+.rg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rg .left {
+    width: 968px;
+    height: 610px;
+}
+
+.rg .left Ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rg .left li {
+    position: relative;
+    padding: 10px 21px 0;
+    width: 242px;
+    height: 305px;
+    background-color: #fff;
+    border: 0px solid #00be9a;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.rg .right {
+    width: 248px;
+    height: 610px;
+}
+
+.rg .left li .pic {
+    width: 200px;
+    height: 180px;
+}
+
+.rg .left li .txt {
+    margin-top: 15px;
+    height: 57px;
+}
+
+.rh .left li .txt h5,
+p {
+   line-height: 19px; 
+   font-weight: 400;
+   font-size: 16px;
+   color: #333;
+}
+
+.rg .left li .txt .jg {
+    margin-top: 7px;
+    color: #af2f22;
+}
+
+.rg .left li .txt .jg span {
+    font-size: 22px;
+}
+
+/* 鼠标悬停时 */
+.rg .left li:hover {
+    border: 2px solid #00be9a;
+} 
+
+.rg .left li .cover {
+    position: absolute;
+    padding-top: 15.5px;
+    text-align: center;
+    left: 0;
+    bottom: -105px;
+    width: 242px;
+    height: 83.5px;
+    background-color: #00be9a;
+
+    transition: all 0.5s;
+}
+
+.rg .left li .cover h5 {
+    margin-bottom: 14px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.rg .left li .cover p {
+    margin-right: 8px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.rg .le  li .cover .iconfont {
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+.rg .left li:hover .cover {
+    bottom: 0;
+    cursor: pointer;
+}
+
